@@ -1,2 +1,8 @@
 .buttonRow {
+  overflow-x: auto;
+  white-space: nowrap;
+  /* undo the padding on the container to make the scrollbar start at the left edge of the container */
+  margin-left: -24px;
+  /* introduce padding to give space for the buttons */
+  padding: 24px;
 }
